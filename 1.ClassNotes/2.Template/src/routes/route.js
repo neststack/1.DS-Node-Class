@@ -11,7 +11,6 @@ const router = (app) => {
     apiRouter.get("/", (req, res) => {
         res.send("Api Working");
     });
-
 }
 
 module.exports = router;
